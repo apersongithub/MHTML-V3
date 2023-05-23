@@ -1,10 +1,2 @@
 # MHTML
-A proxy frontend service.
-
-9/24/22:
-
-Account system is fully completed
-Fixed games and apps not working
-Taking proxies out of WIP
-
-https://www.google.com/search?q=snake&source=hp&ei=tgSaY_TOC467ytMPh7Sb6AE&iflsig=AJiK0e8AAAAAY5oSxpSnQk2BH14TsoUrbPPesNuCcRYc&ved=0ahUKEwj0gZSTzvn7AhWOnXIEHQfaBh0Q4dUDCAs&uact=5&oq=snake&gs_lcp=Cgdnd3Mtd2l6EAMyCAguENQCEIAEMgsILhCABBCxAxCDATIICC4QgAQQsQMyCAgAEIAEELEDMgsIABCABBCxAxCDATIICC4QgAQQ1AIyBQgAEIAEMgUIABCABDIICAAQgAQQsQMyCwguEIAEELEDENQCOg4ILhCABBCxAxDHARDRAzoLCC4QgAQQxwEQ0QM6EQguEIAEELEDEIMBEMcBENEDOg4ILhCxAxCDARDHARDRAzoICC4QsQMQgwE6DggAEI8BEOoCEIwDEOUCOg4ILhCPARDqAhCMAxDlAjoICAAQsQMQgwFQAFirFGDDFmgBcAB4AIABTYgBmgOSAQE2mAEAoAEBsAEK&sclient=gws-wiz&safe=active&ssui=on
+its open source now enjoy the horrible rushed code i used for this project
