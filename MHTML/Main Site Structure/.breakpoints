@@ -1,0 +1,28 @@
+{
+  "files": {
+    "public/apps.js": [
+      {
+        "id": "dcf68467-3f43-411a-b02c-fb88b8eb9a08",
+        "line": 2,
+        "version": 235,
+        "index": 1
+      }
+    ],
+    "public/bg.js": [
+      {
+        "id": "9b19a4cb-89c9-42f9-945b-c0ac31a7cd16",
+        "line": 96,
+        "version": 3051,
+        "index": 3473
+      }
+    ],
+    "public/bjop.js": [
+      {
+        "id": "5d6a46ad-c088-4f61-8e46-2b326d04fb05",
+        "line": 16,
+        "version": 108,
+        "index": 479
+      }
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+<html data-theme="night" lang="en" style="
+    background: linear-gradient(0deg, rgba(18,18,18,1) 55%, rgb(105 14 110) 100%);
+"><head>
+    <link rel="icon" type="image/png" href="Media/Images/favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHTML (v3.0)</title>
+    <!-- Cascade Style Sheet -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="bgcss.css">
+    <script src="bg.js"></script>
+<style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style><style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style><style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style><style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style><style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style><style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style><style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style><style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style><style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style><style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style></head>
+<body class="vsc-initialized">
+    <div class="body-separator" id="side-navigation">
+        <div class="container" id="logo-container">
+          <script src="changeid.js"></script>
+            <a>
+                <img class="" id="img" src="Media/SVGs/logo.png" href="/"> <img class="ui-icon2" id="menu" src="Media/SVGs/list.svg" onclick="button()" style="height: 24px;">
+            </a>
+        </div>
+        <div class="container" id="navigation-links">
+            <ul id="navigation-items">
+                <li class="navigation-item">
+                    <img class="ui-icon" src="Media/SVGs/home.svg">
+                    <span class="link-name" id="1">Home</span>
+                </li>
+                <li class="navigation-item">
+                    <img class="ui-icon" src="Media/SVGs/search-icon.svg">
+                    <span class="link-name" id="2">Search</span>
+                </li>
+                
+                <li class="navigation-item">
+                    <img class="ui-icon" src="Media/SVGs/bell.svg" style="width: 24px; height: 24px;">
+                    <span class="link-name" id="3">News and Updates </span>
+                </li>
+                <li class="navigation-item">
+                    <img class="ui-icon" src="Media/SVGs/apps.svg" style="width: 24px; height: 24px;">
+                    <span class="link-name" id="4">Apps</span>
+                </li>
+                <li class="navigation-item">
+                    <img class="ui-icon" src="Media/SVGs/controller.svg" style="width: 24px; height: 24px;">
+                    <span class="link-name" id="5">Games</span>
+                </li>
+                <li class="navigation-item">
+                    <img class="ui-icon" src="Media/SVGs/wifi.svg" style="width: 24px; height: 24px;">
+                    <span class="link-name" id="6">Proxies</span>
+                </li>
+                <li class="navigation-item">
+                    <img class="ui-icon" src="Media/SVGs/film.svg" style="width: 24px; height: 24px;">
+                    <span class="link-name" id="7">Entertainment</span>
+                </li>
+                <li class="navigation-item">
+                    <img class="ui-icon" src="Media/SVGs/book.svg" style="width: 24px; height: 24px;">
+                    <span class="link-name" id="8">Library</span>
+                </li>
+                <li class="navigation-item">
+                    <img class="ui-icon" src="Media/SVGs/award.svg" style="width: 24px; height: 24px;">
+                    <span class="link-name" id="9">School Cheats</span>
+                </li>
+                <li class="navigation-item">
+                    <img class="ui-icon" src="Media/SVGs/archive.svg" style="width: 24px; height: 24px;">
+                    <span class="link-name" id="10">Emulators</span>
+                </li>
+                <li class="navigation-item">
+                    <img class="ui-icon" src="Media/SVGs/question-square.svg" style="width: 24px; height: 24px;">
+                    <span class="link-name" id="11">Others</span>
+                </li>
+            </ul>
+
+          
+            <ul id="navigation-items">
+                <li class="navigation-item" linked="true" id="create-playlist" style="margin-left: -2.5px;">
+                    <img src="Media/SVGs/gear.svg">
+                    <span class="link-name" id="12">Settings</span>
+                </li>
+                <li class="navigation-item" id="create-suggestion" style="margin-left: -2.5px;">
+                    <img src="Media/SVGs/chat-left-dots.svg" style="width: 16px; height: 16px;"> 
+                    <span class="link-name" id="13">Suggest</span>
+                </li>
+                <li class="navigation-item" id="create-bugs" style="margin-left: -2.5px;">
+                    <img src="Media/SVGs/bug.svg">
+                    <span class="link-name" id="14">Report Bugs</span>
+                </li>
+                <li class="navigation-item" id="create-bugs" style="margin-left: -2.5px;">
+                    <img src="Media/SVGs/eye.svg">
+                    <span class="link-name" id="15">TOS, Privacy Policy</span>
+                </li>
+            </ul>
+            <hr class="navigation-divider">
+            <div class="container" id="playlists-holder">
+                <ul id="navigation-items-playlists">
+                    <li class="navigation-item" id="playlist-names">
+                        <span id="classa" class="playlist-name">Version 3.0 Early Beta</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+              
+                <ul id="navigation-items" style="padding-top: 0px; position: fixed; bottom: 90px; width: 276px;">
+                    <li class="navigation-item">
+                        <img class="ui-icon" src="Media/SVGs/install-icon.svg" width="20px">
+                        <span id="16" style="margin-left: 2;" class="link-name">Install offline version</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="body-separator" id="player-section">
+        <div class="section-separator" id="song-data">
+<div class="section-separator" style="margin-left: -150px; width: auto;">
+  <form class="form" action="/search" method="GET" id="searchform">
+        <span id="search-icon" class="">
+      <svg width="15" height="15" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.57212 13.1442C2.94254 13.1442 0 10.2016 0 6.57173C0 2.94248 2.94268 0 6.57212 0C10.2016 0 13.1442 2.94248 13.1442 6.57173C13.1442 8.05658 12.6519 9.42642 11.8215 10.5269L16.3528 15.0581C16.7103 15.4156 16.7103 15.9952 16.3528 16.3527C15.9953 16.7102 15.4157 16.7102 15.0582 16.3527L10.527 11.8215C9.42657 12.6519 8.05682 13.1442 6.57212 13.1442ZM6.57212 11.2665C3.97956 11.2665 1.87775 9.16463 1.87775 6.57184C1.87775 3.97952 3.97966 1.87775 6.57212 1.87775C9.16458 1.87775 11.2665 3.97952 11.2665 6.57184C11.2665 9.16463 9.16468 11.2665 6.57212 11.2665Z" fill="#C2C4CF" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#ffffff;"></path>
+      </svg>
+    </span>
+    <div class="searchbox-wrapper">
+      <input id="searchbox" type="text" class="form-input" placeholder="Search the web privately…" name="q" value="" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="Search" title="Search" aria-autocomplete="both" aria-haspopup="false" maxlength="2048" autofocus="">
+    </div>
+    <input name="source" value="web" type="hidden">
+                    <input name="" value="" type="hidden" id="goggleQueryParam">
+       <div id="autocomplete" class=" svelte-1xuxk18"></div></form>
+</div>
+            </div>
+<div class="section-separator" id="player-controllers">
+            <img class="ui-icon" src="Media/SVGs/queue-icon.svg" alt="">
+            <img class="ui-icon" src="Media/SVGs/devices-icon.svg" alt="">
+            <div style="display: flex; justify-content: center; gap: 0px;">
+                <img class="ui-icon" src="Media/SVGs/volume-icon.svg" alt="">
+                <input type="range" min="0" max="100" value="100" disabled="">
+            </div>
+        </div>
+        </div>
+    
+    <div class="body-separator" id="spotify-content">
+      
+        <div class="container" id="top-bar">
+            <div id="directors">
+                <img class="forward" src="Media/SVGs/backward-icon.svg" alt="backward-icon" style="margin-right: 16px;">
+                <img class="backward" src="Media/SVGs/foreward-icon.svg" alt="foreward-icon" dir="true">
+            </div>
+            <div id="user-data">
+                <div id="user"></div>
+                <span>Sign In</span>
+                <img class="ui-icon" src="Media/SVGs/dropdown-icon.svg" style="margin-inline-end: 6px;">
+            </div>
+        </div>
+        
+        
+        
+        
+<div class="container head-title">
+  <img class="ui-icon" src="Media/SVGs/gear.svg">
+            <span>Settings | Personalization</span>
+        </div><div class="container" id="recently-listened2">
+            <div class="block">
+                <img src="Media/SVGs/person-x-fill.svg" style="filter: invert(100%) sepia(0%) saturate(7427%) hue-rotate(304deg) brightness(98%) contrast(109%); width: 60px;" alt="list-1">
+                <span style="color: red">Delete your account</span>
+                <div class="play-btn">
+                    <img src="Media/SVGs/play-icon.svg" alt="play:list-1">
+                </div>
+            </div>
+            <div class="block">
+                <img src="Media/SVGs/person-circle.svg" style="filter: invert(100%) sepia(0%) saturate(7427%) hue-rotate(304deg) brightness(98%) contrast(109%); width: 60px;" alt="list-2">
+                <span>Change Avatar</span>
+                <div class="play-btn">
+                    <img src="Media/SVGs/play-icon.svg" alt="play:list-2">
+                </div>
+            </div>
+            <div class="block">
+                <img src="Media/SVGs/person-dash-fill.svg" style="filter: invert(100%) sepia(0%) saturate(7427%) hue-rotate(304deg) brightness(98%) contrast(109%); width: 60px;" alt="list-3">
+                <span>Sign Out</span>
+                <div class="play-btn">
+                    <img src="Media/SVGs/play-icon.svg" alt="play:list-3">
+                  
+                </div>
+            </div>
+            
+            
+        </div>
+
+<!-- partial:index.partial.html -->
+<div id="colors">
+    <span class="btn" style="background: linear-gradient(to right, red , yellow);"></span>
+    <span class="btn" style="background: gray;"></span>
+    <span class="btn" style="background: greenyellow;"></span>
+    <span class="btn" style="background: blue;"></span>
+    <span class="btn" style="background: #66f7ff;"></span>
+    <span class="btn" style="background: #ff00f5;"></span>
+    <span class="btn" style="background: #fefdff;"></span>
+    <span class="btn" style="background: #000000;"></span>
+    <span class="btn" style="background: yellow;"></span>
+    <span class="btn" style="background: rgba(0, 0, 0, 0.4);"></span>
+
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+  
+
+             
+
+</div></body></html>

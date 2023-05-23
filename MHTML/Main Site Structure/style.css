@@ -1,0 +1,14 @@
+body {
+  font-family: arial;
+  background: yellow;
+}
+
+@font-face {
+    font-family: 'spotify';
+    src: url('Media/Fonts/CircularSpotifyText-Black.ttf') format('truetype'), url('Media/Fonts/CircularSpotifyText-BlackItalic.ttf') format('truetype'), url('Media/Fonts/CircularSpotifyText-Bold.ttf') format('truetype'), url('Media/Fonts/CircularSpotifyText-Book.ttf') format('truetype'), url('Media/Fonts/CircularSpotifyText-BookItalic.ttf') format('truetype'), url('Media/Fonts/CircularSpotifyText-Medium.ttf') format('truetype'), url('Media/Fonts/CircularSpotifyText-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'spotify-light';
+    src: url('Media/Fonts/CircularSpotifyText-Light.ttf') format('truetype');
+}

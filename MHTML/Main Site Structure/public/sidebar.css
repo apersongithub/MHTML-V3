@@ -1,0 +1,99 @@
+.body-separator#side-navigationa {
+    display: block;
+    position: fixed;
+    height: calc(100% - 91px);
+    width: 75px;
+    /* min-width: 130px !important; */
+    max-width: 400px !important;
+    transition: all 0.5s ease;
+    background-color: #000000;
+    z-index: 10;
+    border-radius: 5px;
+}
+
+#navigation-items .navigation-item .link-name2 {
+    padding-top: 5px;
+    white-space: nowrap;
+    text-transform: capitalize;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+#test {
+    padding-top: 5px;
+    white-space: nowrap;
+    text-transform: capitalize;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+#playlist-names .playlist-name2 {
+    font-family: 'spotify-light';
+    text-transform: capitalize;
+    cursor: default;
+    margin-top: 20px;
+    margin-right: -3px;
+    margin-left: -16;
+}
+
+.body-separator2#spotify-content {
+    display:  block;
+    position: absolute;
+    width: calc(100% - 250px);
+    height: calc(100% - 91px);
+    left: 250px;
+    background: linear-gradient(0deg, rgba(18,18,18,1) 50%, rgb(105 14 110) 100%);
+    overflow-x: hidden;
+    width: calc(105% - 240px);
+    left: 100px;
+    scroll-behavior: smooth;
+    transition: all 0.4s ease;
+    scrollbar-width: none;
+}
+
+.ui-icon2 {
+  filter: invert(60%) sepia(0%) saturate(7427%) hue-rotate(304deg) brightness(98%) contrast(109%);
+  width: 24px;
+  height: 24px;
+  margin-left: 165px;
+  margin-top: -32px;
+  transition: all 0.5s ease 0s;
+}
+
+.ui-icon2:hover {
+    filter: invert(100%) sepia(0%) saturate(7427%) hue-rotate(304deg) brightness(98%) contrast(109%) drop-shadow(2px 4px 6px black);
+  width: 24px;
+  height: 24px;
+  margin-left: 165px;
+  margin-top: -32px;
+  transition: all 0.5s ease 0s;
+}
+
+.body-separator4#side-navigationa {
+    display: block;
+    position: fixed;
+    height: calc(100% - 91px);
+    width: 75px;
+    /* min-width: 130px !important; */
+    max-width: 400px !important;
+    transition: all 0.5s ease;
+    background-color: #000000;
+    z-index: 10;
+    border-radius: 5px;
+}
+
+.body-separator4#side-navigation {
+    display: block;
+    transition: all 0.5s ease;
+    position: fixed;
+    height: calc(100% - 91px);
+    width: 250px;
+    min-width: 130px !important;
+    max-width: 400px !important;
+    background-color: #000000;
+    z-index: 10;
+    border-radius: 5px;
+    background-size: cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+}

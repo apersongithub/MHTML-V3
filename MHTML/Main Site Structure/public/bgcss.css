@@ -1,0 +1,137 @@
+body2 {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.btn {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: 1px solid white;
+}
+
+.cbtn {
+  /* Global btn styles */
+  --height: 40px;
+  --font-size: 13px;
+  --btn-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: var(--btn-radius);
+  cursor: pointer;
+  box-sizing: border-box;
+  line-height: 20px;
+  /* Default styles */
+  height: var(--height);
+  padding: calc(var(--height) * 0.2) calc(var(--height) * 0.55);
+  font-size: var(--font-size);
+}
+
+.cbtn {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: 1px solid white;
+}
+
+#Btn1 { 
+  cursor:pointer;
+}
+
+#Image {
+  height:10em;
+  margin:1em 0;
+  border:1px solid #ccc;
+}
+
+.body-separator#spotify-content {
+    display:  block;
+    position: absolute;
+    width: calc(100% - 250px);
+    height: calc(100% - 91px);
+    left: 250px;
+    background: linear-gradient(0deg, rgba(18,18,18,1) 50%, rgb(105 14 110) 100%);
+    overflow-x: hidden;
+    transition: all 0.4s ease;
+    background-size: cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    scroll-behavior: smooth;/* optional, center the image */
+    scrollbar-width: none;
+}
+
+.bbody-separator#player-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-flow: nowrap;
+    position: fixed;
+    bottom: 0px;
+    width: 100% !important;
+    height: 90px !important;
+    background-color: #181818;
+    border-top: 1px solid #282828;
+    transition: all 0.5s ease;
+}
+
+
+.container1 {
+	  position: absolute;
+      left: 50%;
+	}
+
+.child {
+	  position: relative; 
+	  left: -50%; 
+    width: 1000;
+	}	
+
+.centered {
+    z-index: 20;
+    filter: opacity(0.8);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    width: 1000;
+        color: rgb(255 255 255);
+    --darkreader-inline-color: #ffffff;
+    font-family: var(--main-font);
+    text-align: center;
+    transition: all 0.5s ease;
+  margin-left: 100px;
+  height: 50;
+	}	
+
+.text2 {
+color: rgb(255 255 255);
+    border-color: rgb(0 0 0);
+    --darkreader-inline-color: #ffffff;
+    --darkreader-inline-border-top: #fbe5c3;
+    --darkreader-inline-border-right: #fbe5c3;
+    --darkreader-inline-border-bottom: #fbe5c3;
+    --darkreader-inline-border-left: #fbe5c3;
+    text-align: center;
+	}	
+
+.text5 {
+color: rgb(255 255 255);
+--darkreader-inline-color:#ffffff;font-family: var(--main-font);
+text-align: center;
+	}	
