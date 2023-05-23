@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+<link rel="stylesheet" href="https://mhtmlbeta.ml/Media/Fonts/CircularSpotifyText-Bold.ttf">
+<style>
+body {
+  font-family: "Sofia", sans-serif;
+}
+
+*::-webkit-scrollbar {
+    display: none !important;
+    overflow: hidden;
+    visibility: hidden !important;
+}
+</style>
+    <p onclick="sign();" style="    user-select: none; cursor: pointer; width: 105px;height: 33px; color: white;     margin-left: 0px;     font-size: 14px;     margin-top: -8px; border: #0000; font-weight: bolder; letter-spacing: 0.1px;" id="id"><%= username %></p>
+    <script>
+  function getCookie3(name) {
+    var dc = document.cookie;
+    var prefix = name + "=";
+    var begin = dc.indexOf("; " + prefix);
+    if (begin == -1) {
+        begin = dc.indexOf(prefix);
+        if (begin != 0) return null;
+    }
+    else
+    {
+        begin += 2;
+        var end = document.cookie.indexOf(";", begin);
+        if (end == -1) {
+        end = dc.length;
+        }
+    }
+    // because unescape has been deprecated, replaced with decodeURI
+    //return unescape(dc.substring(begin + prefix.length, end));
+    return decodeURI(dc.substring(begin + prefix.length, end));
+} 
+</script>
+    <script>function getCookie(cookieName) {
+  let cookie = {};
+  document.cookie.split(';').forEach(function(el) {
+    let [key,value] = el.split('=');
+    cookie[key.trim()] = value;
+  })
+  return cookie[cookieName];
+}</script>
+<script>
+setTimeout(function(){
+checkCookie();
+}, 1);
+      function checkCookie() {
+  var user = getCookie3("LoggedInReal");
+  if (user == null) {
+    console.log('false')
+    document.getElementById("id").innerHTML = "Sign In" 
+  }else {
+    document.getElementById("id").style.marginLeft = '-0px';
+    document.querySelector("#id").innerHTML = getCookie('username');
+    document.cookie = "username" + "=" + getCookie('username') + ";" + " " + "expires=Fri, 31 Dec 2999 23:59:59 GMT; SameSite=None; Secure";
+    console.log('true')
+  }
+}</script>
+    <script>setTimeout(function() {
+  var chromeOS = /(CrOS)/.test(navigator.userAgent);
+  if (chromeOS) {
+    console.log("chromeos")
+    document.body.style.zoom = "70%"
+    document.getElementById("id").style.marginLeft = "-2px"
+  } else {
+    console.log("no chromeos")
+  }
+}, 400);</script>
+    <script>function sign()
+{
+document.addEventListener('click', function() {
+window.open('https://database.ml/login', '_blank');
+});
+}</script>
+  </body>
+</html>

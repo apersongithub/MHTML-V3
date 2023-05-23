@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <p>Welcome, <%= username %>!</p>
+    <p>You are logged in.</p>
+    <a href="/logout" onclick="clearcookie()">Logout</a>
+    <a href="/api">API</a>
+    <a href="/daccount">Delete Account</a>
+    <script>
+function clearcookie(){
+document.addEventListener('click', function() {
+document.cookie = "LoggedInReal=true; expires=Fri, 31 Dec 1999 23:59:59 GMT; SameSite=None; Secure";
+});
+}</script>
+    <script>document.cookie = "LoggedInReal=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; SameSite=None; Secure";</script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+@font-face {
+   font-family: myFirstFont;
+   src: url(GothamMedium.ttf);
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(Gotham-Bold.otf);
+   font-weight: bold;
+}
+
+* {
+   font-family: myFirstFont;
+}
