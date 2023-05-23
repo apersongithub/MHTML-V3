@@ -1,5 +1,6 @@
 # MHTML
 its open source now enjoy the horrible rushed code i used for this project
+**if you're going to skid maybe actually try to improve the site**
 
 # OFFSITE meaning
 basically i ran it on a seperate vps
